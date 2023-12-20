@@ -5,7 +5,7 @@ By Brian Riordan
 [brianriordanmusic@gmail.com](mailto:brianriordanmusic@gmail.com)  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
   
-Repository for br.utility.stereo.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.whammy.1.0](https://github.com/guaguanco127/br.whammy.1.0)  
+Repository for br.whammy.1.0, with all related files, can be found here: [https://github.com/guaguanco127/br.whammy.1.0](https://github.com/guaguanco127/br.whammy.1.0)  
 Additional programs can be found here: [https://github.com/guaguanco127/plugins](https://github.com/guaguanco127/plugins)
 
 These files were created with Max/MSP version 8.5.6. 
@@ -20,11 +20,11 @@ These files were created with Max/MSP version 8.5.6.
 
 ## <a name="About"></a>About
 
-This is a spectral Max/MSP abstraction that allows the user to transpose the pitch of a stereo signal up to two octave and down to two octaves. Good for harmonization and microtonal pitchshifting. Currently works in any sample rate or bit depth.
+This is a spectral Max/MSP abstraction and Ableton Max for Live device that allows the user to transpose the pitch of a stereo signal up to two octaves and down to two octaves. Suitable for harmonization and microtonal pitch-shifting. Currently works in any sample rate or bit depth.
 
-This effect introduces no latency, however, there are some artifacts that are added into the signal. For an artifact free version of a whamy (that introduces some latency) use [br.pitchshift.1.0](https://github.com/guaguanco127/br.pitchshift.1.0) instead.   
+This effect introduces no latency. However, some artifacts are included to the signal. For an artifact-free version of a whammy (that introduces some latency) use [br.pitchshift.1.0](https://github.com/guaguanco127/br.pitchshift.1.0) instead.  
 
-Only works as an abstraction or a device. External objects and RNBO not available yet. An extremely important file is included in each folder called "solofreeze.pfft" do not move or delete this file until you follow all instructions for installation. 
+It currently only works as an abstraction or a device. External objects and RNBO not available yet. An extremely important file is included in each folder called "solofreeze.pfft" do not move or delete this file until you follow all instructions for installation.
   
 **On/Off:** Turn the effect on or bypass
 
@@ -47,7 +47,7 @@ By saving your logic in an abstraction, you can create modules that can be used 
 
 3. In the Max patch you are using, create an object called br.whammy.abs.1.0 
 
-4. Alternatively, you could also create this inside of a bpatcher object and use all of the preset UI objects that are featured inside of the object. To do this, create a bpatcher object. Then, go insie of its inspector, select "choose" next to "Patcher File" and select the br.whammy.maxpat located within the same folder as your prject. 
+4. Alternatively, you could also create this inside of a bpatcher object and use all of the preset UI objects featured inside the abstraction. To do this, create a bpatcher object. Then, go insie of its inspector, select "choose" next to "Patcher File" and select the br.whammy.maxpat located within the same folder as your project. 
 
 
 ## <a name="Use"></a>How To Use
