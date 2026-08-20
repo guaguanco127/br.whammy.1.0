@@ -28,7 +28,7 @@ This is a spectral Max/MSP abstraction and Ableton Max for Live device that allo
 
 This effect introduces no latency. However, some artifacts are included to the signal. For an artifact-free version of a whammy (that introduces some latency) use [br.pitchshift.1.0](https://github.com/guaguanco127/br.pitchshift.1.0) instead.  
 
-It currently only works as an abstraction or a device. External objects and RNBO not available yet. An extremely important file is included in each folder called "solofreeze.pfft" do not move or delete this file until you follow all instructions for installation. 
+It currently only works as an abstraction or a device. External objects and RNBO not available yet. 
 
 **On/Off:** Turn the effect on or bypass
   
