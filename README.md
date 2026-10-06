@@ -18,7 +18,7 @@ These files were created with Max/MSP version 8.5.6.
 ## Links
 
 [About](#About) 
-[Ableton Max for Live Device](https://github.com/guaguanco127/br.whammy.1.0/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite   
+[Ableton Max for Live Device](https://github.com/guaguanco127/br.whammy.1.0/tree/main/Ableton%20Max%20For%20Live%20) To use inside of Ableton Suite   
 [Max/MSP Abstraction](https://github.com/guaguanco127/br.whammy.1.0/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP   
 
 
