@@ -32,13 +32,15 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 70.0,
-		"description" : "",
+		"description" : "br.whammy.abs.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"boxes" : [ 			{
+		"boxes" : [
+{"box": {"id": "obj-signature", "maxclass": "comment", "numinlets": 1, "numoutlets": 0, "patching_rect": [623.0, 38.0, 520.0, 40.0], "text": "br.whammy.abs.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/", "linecount": 2}},
+ 			{
 				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "newobj",
@@ -674,7 +676,7 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"id" : "obj-25",
+													"id" : "obj-25", "hint" : "br.whammy.abs.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/", "annotation" : "br.whammy.abs.1.0 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
